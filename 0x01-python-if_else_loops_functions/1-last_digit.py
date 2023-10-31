@@ -8,8 +8,6 @@ if number < 0:
 elif number >= 0:
     lnum = number % 10
 
-print(f"Last digit of {number} is {lnum} ")
-
 if lnum > 5:
     print(f"Last digit of {number} is {lnum} and is greater than 5")
 elif lnum == 0:
