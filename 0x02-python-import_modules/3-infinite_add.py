@@ -6,6 +6,7 @@ if __name__ == '__main__':
 
     if larg == 1:
         print(0)
-    for i in range(1, larg):
-        summ = summ + int(sys.argv[i])
-    print(summ)
+    else:
+        for i in range(1, larg):
+            summ = summ + int(sys.argv[i])
+        print(summ)
