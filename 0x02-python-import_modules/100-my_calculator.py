@@ -5,7 +5,6 @@ if __name__ == '__main__':
 
     larg = len(sys.argv)
 
-
     if larg != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
