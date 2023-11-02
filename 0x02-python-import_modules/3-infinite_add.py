@@ -2,7 +2,7 @@
 if __name__ == '__main__':
     import sys
     larg = len(sys.argv)
-    summ = 0;
+    summ = 0
 
     if larg == 1:
         print(0)
