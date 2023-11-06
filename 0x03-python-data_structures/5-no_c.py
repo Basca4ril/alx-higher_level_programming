@@ -6,4 +6,3 @@ def no_c(my_string):
             nstring += k
 
     return nstring
-
