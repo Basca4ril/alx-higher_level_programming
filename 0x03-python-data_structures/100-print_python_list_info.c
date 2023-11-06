@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <Python.h>
+#define PY_SSIZE_T_CLEAN
 
 /**
  * print_python_list_info - print info about python list
