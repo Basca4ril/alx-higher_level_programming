@@ -5,5 +5,5 @@ def no_c(my_string):
         if k != 'c' and k != 'C':
             nstring += k
 
-        return nstring
+    return nstring
 
