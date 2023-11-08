@@ -3,6 +3,7 @@
 def square_matrix_simple(matrix=[]):
     if not matrix:
         return []
+    
     def squarenum(num):
         return num ** 2
 
