@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python4
 
 """
 Definition of Square class
@@ -26,6 +26,7 @@ class Square:
         Returns:
         - int: Size of square
         """
+        return self.__size
 
     @size.setter
     def size(self, num):
