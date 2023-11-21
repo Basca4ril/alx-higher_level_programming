@@ -4,6 +4,7 @@
 Definition of Square class
 """
 
+
 class Square:
     """
     Square clas for square attributes and methods
