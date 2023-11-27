@@ -14,50 +14,50 @@ class Rectangle:
         self.width = width
         self.height = height
 
-        @property
-        def width(self):
-            """
-            Retrieves the width of rectangle
-            """
-            return self.__width
+    @property
+    def width(self):
+        """
+        Retrieves the width of rectangle
+        """
+        return self.__width
 
-        @width.setter
-        def width(self, num):
-            """
-            sets rectangle width
-            """
-            if not isinstance(num, int):
-                raise TypeError("width must be an integer")
-            if num < 0:
-                raise ValueError("width must be >= 0")
-            self.__width = num
+    @width.setter
+    def width(self, num):
+        """
+        sets rectangle width
+        """
+        if not isinstance(num, int):
+            raise TypeError("width must be an integer")
+        if num < 0:
+            raise ValueError("width must be >= 0")
+        self.__width = num
 
-        @property
-        def height(self):
-            """
-            Retrieves the height rectangle
-            """
-            return self.__height
+    @property
+    def height(self):
+        """
+        Retrieves the height rectangle
+        """
+        return self.__height
 
-        @height.setter
-        def height(self, num):
-            """
-            Sets height of rectangle
-            """
-            if not isinstance(num, int):
-                raise TypeError("height must be an integer")
-            if num < 0:
-                raise ValueError("height must be >= 0")
-            self.__height = num
+    @height.setter
+    def height(self, num):
+        """
+        Sets height of rectangle
+        """
+        if not isinstance(num, int):
+            raise TypeError("height must be an integer")
+        if num < 0:
+            raise ValueError("height must be >= 0")
+        self.__height = num
 
-        def area(self):
-            """
-            Calculates area of rectangle
-            """
-            return self.__width * self.__height
+    def area(self):
+        """
+        Calculates area of rectangle
+        """
+        return self.__width * self.__height
 
-        def perimeter(self):
-            """
-            Calculates perimeter of rectangle
-            """
-            return 2 * (self.__width + self.__height) if self.__width > 0 and self.__height > 0 else 0
+    def perimeter(self):
+        """
+        Calculates perimeter of rectangle
+        """
+        return 2 * (self.__width + self.__height) if self.__width > 0 and self.__height > 0 else 0
