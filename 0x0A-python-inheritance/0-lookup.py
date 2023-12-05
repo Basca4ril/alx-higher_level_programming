@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module with function to gets attributes and methods
+"""
 
 def lookup(obj):
     """
