@@ -3,6 +3,7 @@
 Module with function to gets attributes and methods
 """
 
+
 def lookup(obj):
     """
     returns list of available attributes and methods of an object

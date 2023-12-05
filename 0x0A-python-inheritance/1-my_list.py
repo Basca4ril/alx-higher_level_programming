@@ -3,6 +3,7 @@
 Module for Mylist class to inherit from list
 """
 
+
 class MyList(list):
     """
     Inherits from list
