@@ -1,0 +1,23 @@
+print(add_integers(1, 2))
+#Output = 3
+print(add_integers(100, -2))
+#Output = 98
+print(add_integers(2))
+#Output = 100
+print(add_integers(100.3, -2))
+#Output = 98
+
+try:
+     print(add_integer(4, "School"))
+except Exception as ex:
+     print(ex)
+#Output = "b must be an integer"
+try:
+     print(add_integer(None))
+except Exception as ex:
+     print(ex)
+
+if __name__ == "__main__":
+    doctest.testfile("tests/0-add_integer.txt")
+"tests/0-add_integer.txt"
+
