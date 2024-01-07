@@ -1,0 +1,19 @@
+"Test cases for text_indentation function."
+
+>>> text_indentation("This is a simple text. With some sentences. And some punctuation? And colons:")
+This is a simple text.
+With some sentences.
+And some punctuation?
+And colons:
+
+>>> text_indentation("   A text with leading spaces. And multiple spaces   between words.")
+A text with leading spaces.
+And multiple spaces   between words.
+
+>>> text_indentation("No special characters")
+No special characters
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
